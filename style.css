@@ -1,0 +1,13 @@
+.jumbotron {
+	background-image: url("images/computer.jpg");
+	background-size: cover;
+	height: 500px;
+	padding: 16px;
+	color: #FFF;
+}
+
+.divider-dark {
+	height: 1px;
+	overflow: hidden;
+	background-color: #999999;
+}
