@@ -8,24 +8,70 @@
   <meta name="description" content="Site pessoal">
   <meta name="author" content="lucas.santos3@gmail.com">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
-	<div class="jumbotron valign-wrapper teal lighten-5">
-		<div class="row valign ">
+	<div class="jumbotron parallax-container">
+	<div class="valign-wrapper" style="height: 100%">
+		<div class="row center valign">
 		  <h1 class="center-align" style="font-weight: bold;">Lucas Santos Silva</h1>
-		  <div class="divider-dark"></div>
-		  <p class="center-align flow-text">Mobile Developer</p>
+		  <!-- <div class="divider-dark"></div> -->
+		  <p class="center-align flow-text">Full-Stack Developer</p>
 	  </div>
+	  </div>
+	  <div class="parallax"><img src="images/computer.jpg" style="width: 100%;"></div>
+	</div>
+
+	<div class="section container">
+		<h2 class="center-align">Perfil</h2>
+		<div class="divider"></div>
+		<br><br>
+		<div class="row center">
+			<div class="col s12 m6 l4 offset-l2">
+				<img class="circle responsive-img profile-photo" src="images/perfil.jpg">
+			</div>
+			<div class="col s12 m6 l4">
+				<p class="left-align flow-text"><b>Nome: </b>Lucas Santos Silva</p>
+				<p class="left-align flow-text"><b>Idade: </b>28 anos</p>
+				<p class="left-align flow-text"><b>Formação: </b>Ciência da Computação, UFF</p>
+				<p class="left-align flow-text"><b>Localização: </b>Niterói - RJ</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="section grey lighten-2">
+		<div class="container"">
+			<h2 class="center-align">Experiência</h2>
+			<div class="divider"></div>
+			<div class="section">
+				<h5>Sound Club</h5>
+				<p>Android Developer</p>
+			</div>
+			<div class="divider"></div>
+			<div class="section">
+				<h5>Wiseminer</h5>
+				<p>Full-Stack Developer</p>
+			</div>
+		</div>
 	</div>
 
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){
+      $('.parallax').parallax();
+    });
+  </script>
 </body>
 </html>
