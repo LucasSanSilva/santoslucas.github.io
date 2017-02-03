@@ -1,10 +1,19 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
 	font-weight: 300;
+}
+
+p {
+	font-size: 16px;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .jumbotron {
 	/*background-image: url("images/computer.jpg");
 	background-size: cover;*/
+	padding: 10px;
 	height: 550px;
 	color: #FFF;
 }
@@ -25,6 +34,14 @@ h1, h2, h3, h4, h5, h6 {
 	border: 10px;
 	border-style: solid;
 	border-color: #e0e0e0;
+}
+
+.profile-info p {
+	font-size: 18px;
+}
+
+.social-icon {
+	margin: 8px;
 }
 
 @media (max-width: 600px) {
